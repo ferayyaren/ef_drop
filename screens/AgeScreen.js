@@ -87,7 +87,7 @@ const AgeScreen = () => {
       });
     } catch (error) {
       console.error('Error saving age:', error);
-      alert('Yaş kaydedilirken bir hata oluştu');
+      alert('Maalesef Yaş kaydedilirken bir hata oluştu');
     }
   };
 
