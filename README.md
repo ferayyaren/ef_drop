@@ -9,7 +9,7 @@ Bu proje, kullanıcıların günlük su tüketimini takip etmelerine yardımcı 
 - **İstatistikler**: Günlük, haftalık ve aylık istatistikler
 - **Hedef Belirleme**: Kişisel su ihtiyacı hesaplama
 - **Gerçek Zamanlı Veri**: Firebase Firestore ile anlık veri senkronizasyonu
-- **REST API**: Node.js backend ile güçlü API desteği
+- **REST API**: Node.js backend ile güçlü API desteğidir
 
 ## 📱 Teknolojiler
 
