@@ -1,7 +1,6 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-// API base URL - Backend'inizin URL'sini buraya yazın
 const API_BASE_URL = 'http://localhost:3000/api';
 
 // Axios instance oluştur
@@ -13,7 +12,6 @@ const api = axios.create({
   },
 });
 
-// Request interceptor - Token ekle
 api.interceptors.request.use(
   async (config) => {
     try {
@@ -31,7 +29,6 @@ api.interceptors.request.use(
   }
 );
 
-// Response interceptor - Hata yönetimi
 api.interceptors.response.use(
   (response) => response,
   async (error) => {
